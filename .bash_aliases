@@ -11,10 +11,20 @@ alias ea='gedit ~/.bash_aliases; source ~/.bash_aliases && source $HOME/.bash_al
 #so that tilda doesn't need to be used again and again
 alias home='cd ~'
 
-#so that shift a doens't need to be pressed
-alias list='ls -a'
-
 #probably one of the most used commands
 alias stats='git status'
+
+alias h='history'
+alias j='jobs -l'
+alias ..='cd ..'
+
+#ls directories
+alias ls='ls -h --color'
+alias lx='ls -lXB'         #  Sort by extension.
+alias lk='ls -lSr'         #  Sort by size, biggest last.
+alias lt='ls -ltr'         #  Sort by date, most recent last.
+alias lc='ls -ltcr'        #  Sort by/show change time,most recent last.
+alias lu='ls -ltur'        #  Sort by/show access time,most recent last.
+
 
 
