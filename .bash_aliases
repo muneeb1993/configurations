@@ -8,6 +8,13 @@
 alias ea='gedit ~/.bash_aliases; source ~/.bash_aliases && source $HOME/.bash_aliases && echo "aliases sourced  --ok."'
 #
 
-
+#so that tilda doesn't need to be used again and again
 alias home='cd ~'
+
+#so that shift a doens't need to be pressed
+alias list='ls -a'
+
+#probably one of the most used commands
+alias stats='git status'
+
 
